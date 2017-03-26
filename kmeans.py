@@ -44,8 +44,8 @@ plt.plot(reviews[:, 0], reviews[:, 1], 'k.', markersize = 2)
 centroids = k_means.cluster_centers_
 
 plt.scatter(centroids[:, 0], centroids[:, 1], marker = 'x', s = 169, linewidths = 3, color = 'w', zorder = 10)
-plt.title('K-means clustering on the digits dataset (PCA-reduced data)\n'
-          'Centroids are marked with white cross')
+plt.title('Clustering con K-means en el dataset (reducido utilizando PCA)\n'
+          'Los centroides están marcados con una X')
 plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
 plt.xticks(())
