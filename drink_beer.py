@@ -1,6 +1,6 @@
 import csv
 
-def read(reviews):
+def drink(reviews):
 	with open('beer_reviews.csv', 'rb') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',')
 		for review in reader:
