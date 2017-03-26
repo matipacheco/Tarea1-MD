@@ -1,3 +1,5 @@
+#encoding: utf-8
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -9,12 +11,11 @@ from drink_beer import *
 reviews 		= drink([])
 labels, reviews = format_reviews(reviews)
 
-# print labels
-# print reviews[0]
+n_clusters = eval(raw_input("Ingrese la cantidad de clusters: "))
 
 ## Para reducir la dimensionalidad y poder dibujar los clusters
 reviews = PCA(n_components=2).fit_transform(reviews)
-k_means = KMeans(init = "k-means++", n_clusters = 3, n_init = 100)
+k_means = KMeans(init = "k-means++", n_clusters = n_clusters, n_init = 100)
 
 k_means.fit(reviews)
 k_means_labels 			= k_means.labels_
@@ -44,8 +45,8 @@ plt.plot(reviews[:, 0], reviews[:, 1], 'k.', markersize = 2)
 centroids = k_means.cluster_centers_
 
 plt.scatter(centroids[:, 0], centroids[:, 1], marker = 'x', s = 169, linewidths = 3, color = 'w', zorder = 10)
-plt.title('Clustering con K-means en el dataset (reducido utilizando PCA)\n'
-          'Los centroides están marcados con una X')
+plt.title("Clustering K-means con " + str(n_clusters) + " clusters (reducido utilizando PCA)\n"
+          "Los centroides estan marcados con una X")
 plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
 plt.xticks(())
