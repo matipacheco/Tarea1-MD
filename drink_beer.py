@@ -4,6 +4,7 @@ def drink(reviews):
 	with open('beer_reviews.csv', 'rb') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',')
 		for review in reader:
+			review.pop(6)
 			reviews.append(list(review))
 
 	return reviews
@@ -40,24 +41,32 @@ def set_reviews(reviews):
 		else:
 			review[5]  = float(review[5])
 
+		if empty(review[7]):
+			review[7]  = 0.0
+		else:
+			review[7]  = float(review[7])
+
 		if empty(review[8]):
 			review[8]  = 0.0
 		else:
 			review[8]  = float(review[8])
 
-		if empty(review[9]):
-			review[9]  = 0.0
+		if empty(review[10]):
+			review[10]  = 0.0
 		else:
-			review[9]  = float(review[9])
+			review[10]  = float(review[10])
 
 		if empty(review[11]):
-			review[11]  = 0.0
+			review[11]  = 0
 		else:
-			review[11]  = float(review[11])
-
-		if empty(review[12]):
-			review[12]  = 0
-		else:
-			review[12]  = int(review[12])
+			review[11]  = int(review[11])
 	
+		review.pop(9)
+		review.pop(6)
+		review.pop(1)
+
+	labels.pop(9)
+	labels.pop(6)
+	labels.pop(1)
+
 	return labels, reviews
