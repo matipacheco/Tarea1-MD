@@ -12,7 +12,7 @@ def drink(reviews):
 def empty(string):
 	return not string
 
-def set_reviews(reviews):
+def format_reviews(reviews):
 	labels 	= reviews.pop(0)
 
 	for review in reviews:
