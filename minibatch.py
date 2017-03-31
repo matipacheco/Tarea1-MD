@@ -13,20 +13,18 @@ case 			 = eval(raw_input("\n Ingrese opcion: "))
 n_clusters = eval(raw_input("\n Ingrese la cantidad de clusters: "))
 
 reviews = drink([])
+labels  = drink_labels(reviews)
 
 if case == 0:
-	labels, reviews = get_only_review_numbers(reviews)
+	reviews = drink_review_numbers(reviews)
 else:
-	labels, reviews = get_only_review_scores(reviews)
+	reviews = drink_review_scores(reviews)
 
 ## Para reducir la dimensionalidad y poder dibujar los clusters
 reviews 	 = PCA(n_components = 2).fit_transform(reviews)
 mini_batch = MiniBatchKMeans(init = 'k-means++', n_clusters = n_clusters,
 														 batch_size = 10000, n_init = 100, max_no_improvement = 10)
-
 mini_batch.fit(reviews)
-mini_batch_labels 					= mini_batch.labels_
-mini_batch_cluster_centers 	= mini_batch.cluster_centers_
 
 # Step size of the mesh. Decrease to increase the quality of the VQ.
 h = 1000
