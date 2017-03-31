@@ -19,17 +19,12 @@ def drink_labels(reviews):
 
 #########################################################################################
 # Retorna las columnas
-# brewery_id, review_time, review_overall, review_aroma, review_appearance, review_palate
+# review_time, review_overall, review_aroma, review_appearance, review_palate
 # review_taste, beer_abv, beer_beerid.
 #########################################################################################
 
 def drink_review_numbers(reviews):
 	for review in reviews:
-		if empty(review[0]):
-			review[0]  = 0
-		else:
-			review[0]  = int(review[0])
-
 		if empty(review[2]):
 			review[2]  = 0
 		else:
@@ -73,6 +68,7 @@ def drink_review_numbers(reviews):
 		review.pop(9)
 		review.pop(6)
 		review.pop(1)
+		review.pop(0)
 
 	return reviews
 
@@ -140,10 +136,30 @@ def drink_brewery_names(reviews):
 
 def drink_brewery_ids(reviews):
 	reviews.pop(0)
-	names = []
+	brewery_ids = []
 	
 	for review in reviews:
-		names.append(str(review[0]))
+		brewery_ids.append(str(review[0]))
 
 	del reviews[:]
-	return names
+	return brewery_ids
+
+def drink_styles_hash(reviews):
+	code = 0
+	hash = {}
+	
+	for review in reviews:
+		style = review[6]
+		if style in hash.keys():
+			continue	
+		else:
+			hash[style] = code
+			code += 1
+
+	return hash
+
+def prepend_brewery_ids():
+
+
+def prepend_hash_ids()
+	
