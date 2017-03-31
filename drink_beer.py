@@ -12,15 +12,18 @@ def drink(reviews):
 def empty(string):
 	return not string
 
+
+def drink_labels(reviews):
+	labels = reviews.pop(0)
+	return labels
+
 #########################################################################################
 # Retorna las columnas
 # brewery_id, review_time, review_overall, review_aroma, review_appearance, review_palate
 # review_taste, beer_abv, beer_beerid.
 #########################################################################################
 
-def get_only_review_numbers(reviews):
-	labels 	= reviews.pop(0)
-
+def drink_review_numbers(reviews):
 	for review in reviews:
 		if empty(review[0]):
 			review[0]  = 0
@@ -71,20 +74,14 @@ def get_only_review_numbers(reviews):
 		review.pop(6)
 		review.pop(1)
 
-	labels.pop(9)
-	labels.pop(6)
-	labels.pop(1)
-
-	return labels, reviews
+	return reviews
 
 #########################################################################################
 # Retorna las columnas
 # review_overall, review_aroma, review_appearance, review_palate, review_taste.
 #########################################################################################
 
-def get_only_review_scores(reviews):
-	labels 	= reviews.pop(0)
-
+def drink_review_scores(reviews):
 	for review in reviews:
 		if empty(review[3]):
 			review[3]  = 0.0
@@ -119,12 +116,19 @@ def get_only_review_scores(reviews):
 		review.pop(1)
 		review.pop(0)
 
-	labels.pop(11)
-	labels.pop(10)
-	labels.pop(9)
-	labels.pop(6)
-	labels.pop(2)
-	labels.pop(1)
-	labels.pop(0)	
+	return reviews
 
-	return labels, reviews	
+#########################################################################################
+# Retorna la columna
+# brewery_name
+#########################################################################################
+
+def drink_brewery_names(reviews):
+	reviews.pop(0)
+	names = []
+	
+	for review in reviews:
+		names.append(unicode(review[1], "utf-8"))
+
+	del reviews[:]
+	return names
