@@ -132,3 +132,18 @@ def drink_brewery_names(reviews):
 
 	del reviews[:]
 	return names
+
+#########################################################################################
+# Retorna la columna
+# brewery_id
+#########################################################################################
+
+def drink_brewery_ids(reviews):
+	reviews.pop(0)
+	names = []
+	
+	for review in reviews:
+		names.append(str(review[0]))
+
+	del reviews[:]
+	return names
