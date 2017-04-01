@@ -1,0 +1,54 @@
+import pandas as pd
+df_full = pd.read_csv('beer_reviews.csv')
+df_brewery_id_review_overall = pd.DataFrame({'brewery_id':df_full['brewery_id'],'review_overall':df_full['review_overall']})
+df_brewery_id_review_overall_not_full = df_brewery_id_review_overall.loc[0:99999,:]
+print df_brewery_id_review_overall_not_full.describe()
+
+# 6 datasets para brewery_id vs un campo numerico con las primeras 100000 filas
+
+df_brewery_id_review_aroma = pd.DataFrame({'brewery_id':df_full['brewery_id'],'review_aroma':df_full['review_aroma']})
+df_brewery_id_review_aroma_not_full = df_brewery_id_review_aroma.loc[0:99999,:]
+print df_brewery_id_review_aroma_not_full.describe()
+
+df_brewery_id_review_appearance = pd.DataFrame({'brewery_id':df_full['brewery_id'],'review_appearance':df_full['review_appearance']})
+df_brewery_id_review_appearance_not_full = df_brewery_id_review_appearance.loc[0:99999,:]
+print df_brewery_id_review_appearance_not_full.describe()
+
+df_brewery_id_review_palate = pd.DataFrame({'brewery_id':df_full['brewery_id'],'review_palate':df_full['review_palate']})
+df_brewery_id_review_palate_not_full = df_brewery_id_review_palate.loc[0:99999,:]
+print df_brewery_id_review_palate_not_full.describe()
+
+df_brewery_id_review_taste = pd.DataFrame({'brewery_id':df_full['brewery_id'],'review_taste':df_full['review_taste']})
+df_brewery_id_review_taste_not_full = df_brewery_id_review_taste.loc[0:99999,:]
+print df_brewery_id_review_taste_not_full.describe()
+
+df_brewery_id_beer_abv = pd.DataFrame({'brewery_id':df_full['brewery_id'],'beer_abv':df_full['beer_abv']})
+df_brewery_id_beer_abv_not_full = df_brewery_id_beer_abv.loc[0:99999,:]
+print df_brewery_id_beer_abv_not_full.describe()
+
+# 6 datasets para beer_beerid vs un campo numerico con las primeras 100000 filas
+
+df_beer_beerid_review_overall = pd.DataFrame({'beer_beerid':df_full['beer_beerid'],'review_overall':df_full['review_overall']})
+df_beer_beerid_review_overall_not_full = df_beer_beerid_review_overall.loc[0:99999,:]
+print df_beer_beerid_review_overall_not_full.describe()
+
+df_beer_beerid_review_aroma = pd.DataFrame({'beer_beerid':df_full['beer_beerid'],'review_aroma':df_full['review_aroma']})
+df_beer_beerid_review_aroma_not_full = df_beer_beerid_review_aroma.loc[0:99999,:]
+print df_beer_beerid_review_aroma_not_full.describe()
+
+df_beer_beerid_review_appearance = pd.DataFrame({'beer_beerid':df_full['beer_beerid'],'review_appearance':df_full['review_appearance']})
+df_beer_beerid_review_appearance_not_full = df_beer_beerid_review_appearance.loc[0:99999,:]
+print df_beer_beerid_review_appearance_not_full.describe()
+
+df_beer_beerid_review_palate = pd.DataFrame({'beer_beerid':df_full['beer_beerid'],'review_palate':df_full['review_palate']})
+df_beer_beerid_review_palate_not_full = df_beer_beerid_review_palate.loc[0:99999,:]
+print df_beer_beerid_review_palate_not_full.describe()
+
+df_beer_beerid_review_taste = pd.DataFrame({'beer_beerid':df_full['beer_beerid'],'review_taste':df_full['review_taste']})
+df_beer_beerid_review_taste_not_full = df_beer_beerid_review_taste.loc[0:99999,:]
+print df_beer_beerid_review_taste_not_full.describe()
+
+df_beer_beerid_beer_abv = pd.DataFrame({'beer_beerid':df_full['beer_beerid'],'beer_abv':df_full['beer_abv']})
+df_beer_beerid_beer_abv_not_full = df_beer_beerid_beer_abv.loc[0:99999,:]
+print df_beer_beerid_beer_abv_not_full.describe()
+
