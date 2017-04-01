@@ -1,21 +1,24 @@
 import csv
 
-def drink(reviews):
-	with open('beer_reviews.csv', 'rb') as csvfile:
-		reader = csv.reader(csvfile, delimiter=',')
-		for review in reader:
-			review.pop(6)
-			reviews.append(list(review))
 
-	return reviews
+def drink(reviews):
+    with open('beer_reviews.csv', 'rb') as csvfile:
+        reader = csv.reader(csvfile, delimiter=',')
+        for review in reader:
+            review.pop(6)
+            reviews.append(list(review))
+
+    return reviews
+
 
 def empty(string):
-	return not string
+    return not string
 
 
 def drink_labels(reviews):
-	labels = reviews.pop(0)
-	return labels
+    labels = reviews.pop(0)
+    return labels
+
 
 #########################################################################################
 # Retorna las columnas
@@ -24,53 +27,54 @@ def drink_labels(reviews):
 #########################################################################################
 
 def drink_review_numbers(reviews):
-	for review in reviews:
-		if empty(review[2]):
-			review[2]  = 0
-		else:
-			review[2]  = int(review[2])
+    for review in reviews:
+        if empty(review[2]):
+            review[2] = 0
+        else:
+            review[2] = int(review[2])
 
-		if empty(review[3]):
-			review[3]  = 0.0
-		else:
-			review[3]  = float(review[3])
+        if empty(review[3]):
+            review[3] = 0.0
+        else:
+            review[3] = float(review[3])
 
-		if empty(review[4]):
-			review[4]  = 0.0
-		else:
-			review[4]  = float(review[4])
+        if empty(review[4]):
+            review[4] = 0.0
+        else:
+            review[4] = float(review[4])
 
-		if empty(review[5]):
-			review[5]  = 0.0
-		else:
-			review[5]  = float(review[5])
+        if empty(review[5]):
+            review[5] = 0.0
+        else:
+            review[5] = float(review[5])
 
-		if empty(review[7]):
-			review[7]  = 0.0
-		else:
-			review[7]  = float(review[7])
+        if empty(review[7]):
+            review[7] = 0.0
+        else:
+            review[7] = float(review[7])
 
-		if empty(review[8]):
-			review[8]  = 0.0
-		else:
-			review[8]  = float(review[8])
+        if empty(review[8]):
+            review[8] = 0.0
+        else:
+            review[8] = float(review[8])
 
-		if empty(review[10]):
-			review[10]  = 0.0
-		else:
-			review[10]  = float(review[10])
+        if empty(review[10]):
+            review[10] = 0.0
+        else:
+            review[10] = float(review[10])
 
-		if empty(review[11]):
-			review[11]  = 0
-		else:
-			review[11]  = int(review[11])
-	
-		review.pop(9)
-		review.pop(6)
-		review.pop(1)
-		review.pop(0)
+        if empty(review[11]):
+            review[11] = 0
+        else:
+            review[11] = int(review[11])
 
-	return reviews
+        review.pop(9)
+        review.pop(6)
+        review.pop(1)
+        review.pop(0)
+
+    return reviews
+
 
 #########################################################################################
 # Retorna las columnas
@@ -78,41 +82,42 @@ def drink_review_numbers(reviews):
 #########################################################################################
 
 def drink_review_scores(reviews):
-	for review in reviews:
-		if empty(review[3]):
-			review[3]  = 0.0
-		else:
-			review[3]  = float(review[3])
+    for review in reviews:
+        if empty(review[3]):
+            review[3] = 0.0
+        else:
+            review[3] = float(review[3])
 
-		if empty(review[4]):
-			review[4]  = 0.0
-		else:
-			review[4]  = float(review[4])
+        if empty(review[4]):
+            review[4] = 0.0
+        else:
+            review[4] = float(review[4])
 
-		if empty(review[5]):
-			review[5]  = 0.0
-		else:
-			review[5]  = float(review[5])
+        if empty(review[5]):
+            review[5] = 0.0
+        else:
+            review[5] = float(review[5])
 
-		if empty(review[7]):
-			review[7]  = 0.0
-		else:
-			review[7]  = float(review[7])
+        if empty(review[7]):
+            review[7] = 0.0
+        else:
+            review[7] = float(review[7])
 
-		if empty(review[8]):
-			review[8]  = 0.0
-		else:
-			review[8]  = float(review[8])
-	
-		review.pop(11)
-		review.pop(10)
-		review.pop(9)
-		review.pop(6)
-		review.pop(2)
-		review.pop(1)
-		review.pop(0)
+        if empty(review[8]):
+            review[8] = 0.0
+        else:
+            review[8] = float(review[8])
 
-	return reviews
+        review.pop(11)
+        review.pop(10)
+        review.pop(9)
+        review.pop(6)
+        review.pop(2)
+        review.pop(1)
+        review.pop(0)
+
+    return reviews
+
 
 #########################################################################################
 # Retorna la columna
@@ -120,14 +125,15 @@ def drink_review_scores(reviews):
 #########################################################################################
 
 def drink_brewery_names(reviews):
-	reviews.pop(0)
-	names = []
-	
-	for review in reviews:
-		names.append(unicode(review[1], "utf-8"))
+    reviews.pop(0)
+    names = []
 
-	del reviews[:]
-	return names
+    for review in reviews:
+        names.append(unicode(review[1], "utf-8"))
+
+    del reviews[:]
+    return names
+
 
 #########################################################################################
 # Retorna la columna
@@ -135,31 +141,66 @@ def drink_brewery_names(reviews):
 #########################################################################################
 
 def drink_brewery_ids(reviews):
-	reviews.pop(0)
-	brewery_ids = []
-	
-	for review in reviews:
-		brewery_ids.append(str(review[0]))
+    reviews.pop(0)
+    brewery_ids = []
 
-	del reviews[:]
-	return brewery_ids
+    for review in reviews:
+        brewery_ids.append(str(review[0]))
+
+    del reviews[:]
+    return brewery_ids
+
 
 def drink_styles_hash(reviews):
-	code = 0
-	hash = {}
-	
-	for review in reviews:
-		style = review[6]
-		if style in hash.keys():
-			continue	
-		else:
-			hash[style] = code
-			code += 1
+    code = 0
+    hash = {}
 
-	return hash
+    for review in reviews:
+        style = review[6]
+        if style in hash.keys():
+            continue
+        else:
+            hash[style] = code
+            code += 1
 
-def prepend_brewery_ids():
+    return hash
 
+#########################################################################################
+# Retorna la columna
+# brewery_id y la columna dada por numero_campo
+#########################################################################################
 
-def prepend_hash_ids()
-	
+def drink_brewery_name(reviews, numero_campo):
+    indice = 0
+    for review in reviews:
+        if indice == 0:
+            indice += 1
+            for i in reversed(range(12)):
+                review[i] = 0.0
+            pass
+        review[0] = float(review[0])
+
+        for i in reversed(range(12)):
+            if i != numero_campo and i != 0:
+                review.pop(i)
+    return reviews
+
+#########################################################################################
+# Retorna la columna
+# beer_beerid y la columna dada por numero_campo
+#########################################################################################
+
+def drink_beer_style(reviews, numero_campo):
+    indice = 0
+    for review in reviews:
+        if indice == 0:
+            indice += 1
+            for i in reversed(range(12)):
+                review[i] = 0.0
+            pass
+        review[11] = float(review[11])
+
+        for i in reversed(range(12)):
+            if i != numero_campo and i != 11:
+                review.pop(i)
+    return reviews
