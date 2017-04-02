@@ -3,8 +3,8 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 
-from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
+from sklearn.cluster import AgglomerativeClustering as HAC
 
 print "[0] Para clusterizar por la etiqueta Nombre Cerveceria"
 print "[1] Para clusterizar por la etiqueta Tipo de Cerveza"
@@ -18,41 +18,26 @@ if case == 0:
 	reviews = pd.DataFrame({'brewery_id':dataset['brewery_id'],'review_overall':dataset['review_overall'],
                           'review_aroma':dataset['review_aroma'],'review_appearance':dataset['review_appearance'],
                           'review_palate':dataset['review_palate'],'review_taste':dataset['review_taste'],'beer_abv':dataset['beer_abv']})
+	labels = reviews.brewery_id
 else:
 	reviews = pd.DataFrame({'beer_beerid':dataset['beer_beerid'],'review_overall':dataset['review_overall'],
                           'review_aroma':dataset['review_aroma'],'review_appearance':dataset['review_appearance'],
                           'review_palate':dataset['review_palate'],'review_taste':dataset['review_taste'],'beer_abv':dataset['beer_abv']})
+	labels = reviews.beer_beerid
 
 reviews = reviews.fillna(0)
+reviews = reviews.loc[0:9999,:]
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
-k_means = KMeans(init = "k-means++", n_clusters = n_clusters, n_init = 1000)
-k_means.fit(reviews)
+hac 		= HAC(linkage = 'average', n_clusters = n_clusters, affinity = 'euclidean')
+hac.fit(reviews)
 
-# Step size of the mesh. Decrease to increase the quality of the VQ.
-h = 1000
+x_min, x_max = np.min(reviews, axis = 0), np.max(reviews, axis = 0)
+reviews      = (reviews - x_min) / (x_max - x_min)
 
-# Plot the decision boundary. For that, we will assign a color to each
-x_min, x_max = reviews[:, 0].min() - 1, reviews[:, 0].max() + 1
-y_min, y_max = reviews[:, 1].min() - 1, reviews[:, 1].max() + 1
-xx   , yy    = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+for i in range(reviews.shape[0]):
+	plt.text(reviews[i,0], reviews[i,1], labels[i],
+	color    = plt.cm.spectral(hac.labels_[i] / 10.))
 
-Z = k_means.predict(np.c_[xx.ravel(), yy.ravel()])
-Z = Z.reshape(xx.shape)
-
-plt.figure(1)
-plt.clf()
-plt.imshow(Z, interpolation = 'nearest', extent = (xx.min(), xx.max(), yy.min(), yy.max()),
-			    cmap = plt.cm.Paired, aspect = 'auto', origin = 'lower')
-plt.plot(reviews[:, 0], reviews[:, 1], 'k.', markersize = 2)
-
-centroids = k_means.cluster_centers_
-
-plt.scatter(centroids[:, 0], centroids[:, 1], marker = 'x', s = 169, linewidths = 3, color = 'w', zorder = 10)
-plt.title("Clustering K-means con " + str(n_clusters) + " clusters (reducido utilizando PCA)\n"
-          "Los centroides estan marcados con una X")
-plt.xlim(x_min, x_max)
-plt.ylim(y_min, y_max)
-plt.xticks(())
-plt.yticks(())
+plt.show()
 plt.show()
