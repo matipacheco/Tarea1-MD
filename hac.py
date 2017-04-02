@@ -29,7 +29,7 @@ reviews = reviews.fillna(0)
 reviews = reviews.loc[0:9999,:]
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
-hac 		= HAC(linkage = 'average', n_clusters = n_clusters, affinity = 'euclidean')
+hac 		= HAC(linkage = 'complete', n_clusters = n_clusters, affinity = 'euclidean')
 hac.fit(reviews)
 
 x_min, x_max = np.min(reviews, axis = 0), np.max(reviews, axis = 0)
