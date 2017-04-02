@@ -26,7 +26,7 @@ else:
 reviews = reviews.fillna(0)
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
-k_means = KMeans(init = "random", n_clusters = n_clusters, n_init = 1000)
+k_means = KMeans(init = "k-means++", n_clusters = n_clusters, n_init = 100)
 k_means.fit(reviews)
 
 
