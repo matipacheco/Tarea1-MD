@@ -26,17 +26,18 @@ else:
 	labels = reviews.beer_beerid
 
 reviews = reviews.fillna(0)
-reviews = reviews.loc[0:9999,:]
+reviews = reviews.loc[0:19999,:]
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
-hac 		= HAC(linkage = 'complete', n_clusters = n_clusters, affinity = 'euclidean')
+hac 		= HAC(linkage = 'complete', n_clusters = n_clusters, affinity = 'euclidean', connectivity = None)
 hac.fit(reviews)
 
 x_min, x_max = np.min(reviews, axis = 0), np.max(reviews, axis = 0)
 reviews      = (reviews - x_min) / (x_max - x_min)
 
 for i in range(reviews.shape[0]):
-	plt.text(reviews[i,0], reviews[i,1], labels[i],
+	#plt.text(reviews[i,0], reviews[i,1], labels[i],
+	plt.text(reviews[i,0], reviews[i,1], 'x',
 	color    = plt.cm.spectral(hac.labels_[i] / 10.))
 
 plt.show()

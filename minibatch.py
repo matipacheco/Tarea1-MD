@@ -3,7 +3,7 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 
-from sklearn.cluster import KMeans
+from sklearn.cluster import MiniBatchKMeans
 from sklearn.decomposition import PCA
 
 print "[0] Para clusterizar por la etiqueta Nombre Cerveceria"
@@ -26,8 +26,8 @@ else:
 reviews = reviews.fillna(0)
 
 reviews    = PCA(n_components = 2).fit_transform(reviews)
-mini_batch = MiniBatchKMeans(init = 'k-means++', n_clusters = n_clusters,
-														 batch_size = 10000, n_init = 100, max_no_improvement = 10)
+mini_batch = MiniBatchKMeans(init = 'k-means++', n_clusters = n_clusters, batch_size = 1000,
+	                           n_init = 100, max_no_improvement = 10, verbose = 0)
 mini_batch.fit(reviews)
 
 # Step size of the mesh. Decrease to increase the quality of the VQ.

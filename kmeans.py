@@ -26,7 +26,7 @@ else:
 reviews = reviews.fillna(0)
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
-k_means = KMeans(init = "k-means++", n_clusters = n_clusters, n_init = 1000)
+k_means = KMeans(init = "k-means++", n_clusters = n_clusters, n_init = 10, algorithm = "auto", verbose = 0)
 k_means.fit(reviews)
 
 # Step size of the mesh. Decrease to increase the quality of the VQ.
