@@ -44,15 +44,18 @@ plt.figure(1)
 plt.clf()
 plt.imshow(Z, interpolation = 'nearest', extent = (xx.min(), xx.max(), yy.min(), yy.max()),
 			    cmap = plt.cm.Paired, aspect = 'auto', origin = 'lower')
+
 plt.plot(reviews[:, 0], reviews[:, 1], 'k.', markersize = 2)
 
 centroids = k_means.cluster_centers_
-
 plt.scatter(centroids[:, 0], centroids[:, 1], marker = 'x', s = 169, linewidths = 3, color = 'w', zorder = 10)
+
 plt.title("Clustering K-means con " + str(n_clusters) + " clusters (reducido utilizando PCA)\n"
           "Los centroides estan marcados con una X")
 plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
+##	COMENTAR PARA QUITAR NUMEROS EN LOS EJES	##
 plt.xticks(())
 plt.yticks(())
+################################################
 plt.show()

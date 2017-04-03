@@ -40,5 +40,6 @@ for i in range(reviews.shape[0]):
 	plt.text(reviews[i,0], reviews[i,1], 'x',
 	color    = plt.cm.spectral(hac.labels_[i] / 10.))
 
+plt.title("Clustering HAC con " + str(n_clusters) + " clusters (reducido utilizando PCA)")
 plt.show()
 plt.show()
