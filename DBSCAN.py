@@ -3,12 +3,19 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import DBSCAN
 from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
 print "[0] Para clusterizar por la etiqueta Nombre Cerveceria"
 print "[1] Para clusterizar por la etiqueta Tipo de Cerveza"
 
 case 			 = eval(raw_input("\n Ingrese opcion: "))
+
+print "[0] Para clusterizar sin normalizar"
+print "[1] Para clusterizar normalizando"
+
+case_n 			 = eval(raw_input("\n Ingrese opcion: "))
+
 min_samples = eval(raw_input("\n Ingrese la cantidad de min_samples: "))
 eps = eval(raw_input("\n Ingrese el valor de eps: "))
 start_time = time.time()
@@ -27,8 +34,12 @@ reviews = reviews.fillna(0)
 reviews = reviews.loc[100000:249999,:]
 print "Comienzo de fitear DBSCAN"
 print("--- %s segundos ---" % (time.time() - start_time))
+
+if case_n == 1:
+    reviews = StandardScaler().fit_transform(reviews)
+
 reviews    = PCA(n_components = 2).fit_transform(reviews)
-db = DBSCAN(eps=eps, min_samples=min_samples).fit(reviews)
+db = DBSCAN(eps=eps, min_samples=min_samples, algorithm="ball_tree").fit(reviews)
 print "Termine de fitear DBSCAN"
 print("--- %s segundos ---" % (time.time() - start_time))
 

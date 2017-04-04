@@ -3,12 +3,19 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
 print "[0] Para clusterizar por la etiqueta Nombre Cerveceria"
 print "[1] Para clusterizar por la etiqueta Tipo de Cerveza"
 
 case 			 = eval(raw_input("\n Ingrese opcion: "))
+
+print "[0] Para clusterizar sin normalizar"
+print "[1] Para clusterizar normalizando"
+
+case_n 			 = eval(raw_input("\n Ingrese opcion: "))
+
 n_clusters = eval(raw_input("\n Ingrese la cantidad de clusters: "))
 start_time = time.time()
 dataset = pd.read_csv('beer_reviews.csv')
@@ -26,6 +33,10 @@ reviews = reviews.fillna(0)
 reviews = reviews.loc[0:8999,:]
 print "Comienzo de fitear ward"
 print("--- %s segundos ---" % (time.time() - start_time))
+
+if case_n == 1:
+    reviews = StandardScaler().fit_transform(reviews)
+
 reviews    = PCA(n_components = 2).fit_transform(reviews)
 ward = AgglomerativeClustering(n_clusters = n_clusters, linkage='ward').fit(reviews)
 print "Termine de fitear ward"
