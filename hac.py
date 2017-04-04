@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering as HAC
 
 print "[0] Para clusterizar por la etiqueta Nombre Cerveceria"
@@ -27,6 +28,7 @@ else:
 
 reviews = reviews.fillna(0)
 reviews = reviews.loc[0:19999,:]
+reviews = StandardScaler().fit_transform(reviews)
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
 hac 		= HAC(linkage = 'complete', n_clusters = n_clusters, affinity = 'euclidean', connectivity = None)
@@ -41,5 +43,4 @@ for i in range(reviews.shape[0]):
 	color    = plt.cm.spectral(hac.labels_[i] / 10.))
 
 plt.title("Clustering HAC con " + str(n_clusters) + " clusters (reducido utilizando PCA)")
-plt.show()
 plt.show()
