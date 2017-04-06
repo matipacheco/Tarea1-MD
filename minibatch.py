@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.cluster import MiniBatchKMeans
+from sklearn.metrics import normalized_mutual_info_score
+
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 

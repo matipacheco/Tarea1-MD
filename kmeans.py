@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.cluster import KMeans
+from sklearn.metrics import normalized_mutual_info_score
+
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
@@ -16,7 +18,7 @@ reviews = pd.DataFrame({'review_overall':dataset['review_overall'],       'revie
 												'review_taste':dataset['review_taste'],           'beer_abv':dataset['beer_abv']})
 
 reviews = reviews.fillna(0)
-#reviews = StandardScaler().fit_transform(reviews)
+reviews = StandardScaler().fit_transform(reviews)
 
 reviews = PCA(n_components = 2).fit_transform(reviews)
 k_means = KMeans(init = "k-means++", n_clusters = n_clusters, n_init = 10, algorithm = "auto", verbose = 0)
