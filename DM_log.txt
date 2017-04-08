@@ -1,0 +1,2441 @@
+**********************************
+*****        K-MEANS         *****
+**********************************
+ 
+Cantidad de clusters: 2
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0634428031663
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.0884111431785
+
+------------------------------------------------------------
+
+Cantidad de clusters: 3
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0714993581407
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.111556706326
+
+------------------------------------------------------------
+
+Cantidad de clusters: 4
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0766012636617
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.137569721439
+
+------------------------------------------------------------
+
+Cantidad de clusters: 5
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.085482904622
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.172019540496
+
+------------------------------------------------------------
+
+Cantidad de clusters: 6
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0864643722316
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.178195881242
+
+------------------------------------------------------------
+
+Cantidad de clusters: 7
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.096357049251
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.192746988297
+
+------------------------------------------------------------
+
+Cantidad de clusters: 8
+**********************************
+*****        K-MEANS         *****
+**********************************
+ 
+Cantidad de clusters: 2
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0634146116179
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.0883788519967
+
+------------------------------------------------------------
+
+Cantidad de clusters: 3
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0719501832085
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.112405929414
+
+------------------------------------------------------------
+
+Cantidad de clusters: 4
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.076028925468
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.135766345125
+
+------------------------------------------------------------
+
+Cantidad de clusters: 5
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0854165267281
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.172005725353
+
+------------------------------------------------------------
+
+Cantidad de clusters: 6
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0871436870104
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.179573956654
+
+------------------------------------------------------------
+
+Cantidad de clusters: 7
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0953062013207
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.189700847022
+
+------------------------------------------------------------
+
+Cantidad de clusters: 8
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0999026665665
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.205733307778
+
+------------------------------------------------------------
+
+Cantidad de clusters: 9
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.100054152088
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.207456462596
+
+------------------------------------------------------------
+
+Cantidad de clusters: 10
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.103113669141
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.21877646727
+
+------------------------------------------------------------
+
+Cantidad de clusters: 11
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.105262357223
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.217980080351
+
+------------------------------------------------------------
+
+Cantidad de clusters: 12
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.107689421947
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.223432665449
+
+------------------------------------------------------------
+
+Cantidad de clusters: 13
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.11085577059
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.230587837561
+
+------------------------------------------------------------
+
+Cantidad de clusters: 14
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.110635490318
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.231255433307
+
+------------------------------------------------------------
+
+Cantidad de clusters: 15
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.109397742194
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.228985541487
+
+------------------------------------------------------------
+
+Cantidad de clusters: 16
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114240207784
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.24719473009
+
+------------------------------------------------------------
+
+Cantidad de clusters: 17
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.11147340346
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.240941636569
+
+------------------------------------------------------------
+
+Cantidad de clusters: 18
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.113550704051
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.24722969472
+
+------------------------------------------------------------
+
+Cantidad de clusters: 19
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.112465304753
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.246468364353
+
+------------------------------------------------------------
+
+Cantidad de clusters: 20
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114240624519
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.251235668554
+
+------------------------------------------------------------
+
+Cantidad de clusters: 21
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114851349282
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.252845638482
+
+------------------------------------------------------------
+
+Cantidad de clusters: 22
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115354771885
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.253931596544
+
+------------------------------------------------------------
+
+Cantidad de clusters: 23
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115940264895
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.256741999136
+
+------------------------------------------------------------
+
+Cantidad de clusters: 24
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117130270242
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.260805539635
+
+------------------------------------------------------------
+
+Cantidad de clusters: 25
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.116766226188
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.26043402823
+
+------------------------------------------------------------
+
+Cantidad de clusters: 26
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.116502836186
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.259680730199
+
+------------------------------------------------------------
+
+Cantidad de clusters: 27
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117373413871
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.261731905474
+
+------------------------------------------------------------
+
+Cantidad de clusters: 28
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117834059404
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.262295791209
+
+------------------------------------------------------------
+
+Cantidad de clusters: 29
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.119095316169
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.266463782067
+
+------------------------------------------------------------
+
+Cantidad de clusters: 30
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117326733715
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.26298207686
+
+------------------------------------------------------------
+
+Cantidad de clusters: 31
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.118510247367
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.265075307675
+
+------------------------------------------------------------
+
+Cantidad de clusters: 32
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117996540383
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.264378903944
+
+------------------------------------------------------------
+
+Cantidad de clusters: 33
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12020260907
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.270527762529
+
+------------------------------------------------------------
+
+Cantidad de clusters: 34
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117826423731
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.264962340408
+
+------------------------------------------------------------
+
+Cantidad de clusters: 35
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.119462119927
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.270519253308
+
+------------------------------------------------------------
+
+Cantidad de clusters: 36
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120929820649
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.273996142276
+
+------------------------------------------------------------
+
+Cantidad de clusters: 37
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121161729618
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.274909120202
+
+------------------------------------------------------------
+
+Cantidad de clusters: 38
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120079869349
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.271754614985
+
+------------------------------------------------------------
+
+Cantidad de clusters: 39
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120095183022
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.272674173154
+
+------------------------------------------------------------
+
+Cantidad de clusters: 40
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120119037045
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.271846090615
+
+------------------------------------------------------------
+
+Cantidad de clusters: 41
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120482283515
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.275250964485
+
+------------------------------------------------------------
+
+Cantidad de clusters: 42
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121481119708
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.277484133829
+
+------------------------------------------------------------
+
+Cantidad de clusters: 43
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122851090484
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.280686643791
+
+------------------------------------------------------------
+
+Cantidad de clusters: 44
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122543272184
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.2797797913
+
+------------------------------------------------------------
+
+Cantidad de clusters: 45
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122788219804
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.280566030837
+
+------------------------------------------------------------
+
+Cantidad de clusters: 46
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122542790607
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.280982422788
+
+------------------------------------------------------------
+
+Cantidad de clusters: 47
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122176738741
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.279036619522
+
+------------------------------------------------------------
+
+Cantidad de clusters: 48
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122362236463
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.279079206319
+
+------------------------------------------------------------
+
+Cantidad de clusters: 49
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121774295152
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.278409000947
+
+------------------------------------------------------------
+
+Cantidad de clusters: 50
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122752595634
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.281184019197
+
+------------------------------------------------------------
+
+Cantidad de clusters: 51
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.124495646553
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.283848045809
+
+------------------------------------------------------------
+
+Cantidad de clusters: 52
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123307707179
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.282592476591
+
+------------------------------------------------------------
+
+Cantidad de clusters: 53
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123949332219
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.284058699214
+
+------------------------------------------------------------
+
+Cantidad de clusters: 54
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.124548353599
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.286074381662
+
+------------------------------------------------------------
+
+Cantidad de clusters: 55
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125254195939
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.28774671947
+
+------------------------------------------------------------
+
+Cantidad de clusters: 56
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.124805687931
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.287008100129
+
+------------------------------------------------------------
+
+Cantidad de clusters: 57
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125114294965
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.287103941096
+
+------------------------------------------------------------
+
+Cantidad de clusters: 58
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125728982671
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.28840410579
+
+------------------------------------------------------------
+
+Cantidad de clusters: 59
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126197606875
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290478198111
+
+------------------------------------------------------------
+
+Cantidad de clusters: 60
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12617779614
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290851871995
+
+------------------------------------------------------------
+
+Cantidad de clusters: 61
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125265832909
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.288124938029
+
+------------------------------------------------------------
+
+Cantidad de clusters: 62
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126503240666
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291604280589
+
+------------------------------------------------------------
+
+Cantidad de clusters: 63
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126519736619
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290403562815
+
+------------------------------------------------------------
+
+Cantidad de clusters: 64
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126122167925
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290083281276
+
+------------------------------------------------------------
+
+Cantidad de clusters: 65
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126254302374
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290045846391
+
+------------------------------------------------------------
+
+Cantidad de clusters: 66
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126482951079
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291293123737
+
+------------------------------------------------------------
+
+Cantidad de clusters: 67
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127400615905
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.293192647749
+
+------------------------------------------------------------
+
+Cantidad de clusters: 68
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126865887092
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.292511419688
+
+------------------------------------------------------------
+
+Cantidad de clusters: 69
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126903987556
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.292596602498
+
+------------------------------------------------------------
+
+Cantidad de clusters: 70
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127514767215
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.293758300954
+
+------------------------------------------------------------
+
+Cantidad de clusters: 71
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127387775241
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.293329494365
+
+------------------------------------------------------------
+
+Cantidad de clusters: 72
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127947858395
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294664233911
+
+------------------------------------------------------------
+
+Cantidad de clusters: 73
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127951156215
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294805086092
+
+------------------------------------------------------------
+
+Cantidad de clusters: 74
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127878714801
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.295068254884
+
+------------------------------------------------------------
+
+Cantidad de clusters: 75
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128060131073
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.295853494385
+
+------------------------------------------------------------
+
+Cantidad de clusters: 76
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128793108457
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297227681228
+
+------------------------------------------------------------
+
+Cantidad de clusters: 77
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12922318242
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298176498739
+
+------------------------------------------------------------
+
+Cantidad de clusters: 78
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128534367488
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296376028847
+
+------------------------------------------------------------
+
+Cantidad de clusters: 79
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129074580924
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297728685541
+
+------------------------------------------------------------
+
+Cantidad de clusters: 80
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128542933667
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296180125068
+
+------------------------------------------------------------
+
+Cantidad de clusters: 81
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128534060289
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296418136181
+
+------------------------------------------------------------
+
+Cantidad de clusters: 82
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128862221132
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297334577389
+
+------------------------------------------------------------
+
+Cantidad de clusters: 83
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12885779592
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297705560631
+
+------------------------------------------------------------
+
+Cantidad de clusters: 84
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128660385764
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296543087888
+
+------------------------------------------------------------
+
+Cantidad de clusters: 85
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128293768862
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296130783172
+
+------------------------------------------------------------
+
+Cantidad de clusters: 86
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128542217142
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296208124568
+
+------------------------------------------------------------
+
+Cantidad de clusters: 87
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129129757019
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298379504706
+
+------------------------------------------------------------
+
+Cantidad de clusters: 88
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129394995549
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298850963349
+
+------------------------------------------------------------
+
+Cantidad de clusters: 89
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128971987854
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297494750358
+
+------------------------------------------------------------
+
+Cantidad de clusters: 90
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128886470601
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297425793764
+
+------------------------------------------------------------
+
+Cantidad de clusters: 91
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12901789204
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297648952779
+
+------------------------------------------------------------
+
+Cantidad de clusters: 92
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12835341042
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.29634029347
+
+------------------------------------------------------------
+
+Cantidad de clusters: 93
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129292546045
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298675801592
+
+------------------------------------------------------------
+
+Cantidad de clusters: 94
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129066043175
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298097548274
+
+------------------------------------------------------------
+
+Cantidad de clusters: 95
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129062103726
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297405685079
+
+------------------------------------------------------------
+
+Cantidad de clusters: 96
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129667405445
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.299266704563
+
+------------------------------------------------------------
+
+Cantidad de clusters: 97
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128553434803
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296970670677
+
+------------------------------------------------------------
+
+Cantidad de clusters: 98
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129885903353
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.300423798313
+
+------------------------------------------------------------
+
+Cantidad de clusters: 99
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129689988733
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.300250261885
+
+------------------------------------------------------------
+
+Cantidad de clusters: 100
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129062058946
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298328045926
+
+------------------------------------------------------------
+
+**********************************
+***     MINI BATCH K-MEANS     ***
+**********************************
+ 
+Cantidad de clusters: 2
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0632818530782
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.088294468037
+
+------------------------------------------------------------
+
+Cantidad de clusters: 3
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0731013789561
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.117439318248
+
+------------------------------------------------------------
+
+Cantidad de clusters: 4
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0768524824898
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.13877063398
+
+------------------------------------------------------------
+
+Cantidad de clusters: 5
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0839519820398
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.168964978215
+
+------------------------------------------------------------
+
+Cantidad de clusters: 6
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0909297397706
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.189878877755
+
+------------------------------------------------------------
+
+Cantidad de clusters: 7
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0967547953668
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.194539714309
+
+------------------------------------------------------------
+
+Cantidad de clusters: 8
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0997005173697
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.207229259533
+
+------------------------------------------------------------
+
+Cantidad de clusters: 9
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.100977709787
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.209367854017
+
+------------------------------------------------------------
+
+Cantidad de clusters: 10
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.101251668653
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.212092288095
+
+------------------------------------------------------------
+
+Cantidad de clusters: 11
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.101468266181
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.216266858974
+
+------------------------------------------------------------
+
+Cantidad de clusters: 12
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.108695056369
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.228575491306
+
+------------------------------------------------------------
+
+Cantidad de clusters: 13
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.10944709585
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.233127091814
+
+------------------------------------------------------------
+
+Cantidad de clusters: 14
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.110757647831
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.239001004233
+
+------------------------------------------------------------
+
+Cantidad de clusters: 15
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.112468460654
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.24155934765
+
+------------------------------------------------------------
+
+Cantidad de clusters: 16
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.110054746388
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.237761465159
+
+------------------------------------------------------------
+
+Cantidad de clusters: 17
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114177482093
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.246913852411
+
+------------------------------------------------------------
+
+Cantidad de clusters: 18
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114601818274
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.249457118961
+
+------------------------------------------------------------
+
+Cantidad de clusters: 19
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117291748367
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.253661155229
+
+------------------------------------------------------------
+
+Cantidad de clusters: 20
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.113003871209
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.2483100911
+
+------------------------------------------------------------
+
+Cantidad de clusters: 21
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114436322621
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.253637964363
+
+------------------------------------------------------------
+
+Cantidad de clusters: 22
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.114695244017
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.251267618785
+
+------------------------------------------------------------
+
+Cantidad de clusters: 23
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115476248711
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.256159787398
+
+------------------------------------------------------------
+
+Cantidad de clusters: 24
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115666538263
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.255765485574
+
+------------------------------------------------------------
+
+Cantidad de clusters: 25
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115320701715
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.254096190683
+
+------------------------------------------------------------
+
+Cantidad de clusters: 26
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115373074661
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.257445457577
+
+------------------------------------------------------------
+
+Cantidad de clusters: 27
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.115835394456
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.255746221491
+
+------------------------------------------------------------
+
+Cantidad de clusters: 28
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.116890471073
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.258743213122
+
+------------------------------------------------------------
+
+Cantidad de clusters: 29
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.117287815424
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.264044466956
+
+------------------------------------------------------------
+
+Cantidad de clusters: 30
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.119432819156
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.267783110075
+
+------------------------------------------------------------
+
+Cantidad de clusters: 31
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.118733242927
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.266789578997
+
+------------------------------------------------------------
+
+Cantidad de clusters: 32
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.118754511034
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.267061353847
+
+------------------------------------------------------------
+
+Cantidad de clusters: 33
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.119130976026
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.266960801108
+
+------------------------------------------------------------
+
+Cantidad de clusters: 34
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120086952049
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.270099724234
+
+------------------------------------------------------------
+
+Cantidad de clusters: 35
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120211810807
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.271001875925
+
+------------------------------------------------------------
+
+Cantidad de clusters: 36
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121374313915
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.272909091629
+
+------------------------------------------------------------
+
+Cantidad de clusters: 37
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.120689114267
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.275160569071
+
+------------------------------------------------------------
+
+Cantidad de clusters: 38
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.119358817224
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.272601260567
+
+------------------------------------------------------------
+
+Cantidad de clusters: 39
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12118955046
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.274832941702
+
+------------------------------------------------------------
+
+Cantidad de clusters: 40
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121361771718
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.275957678616
+
+------------------------------------------------------------
+
+Cantidad de clusters: 41
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123051844237
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.279144107184
+
+------------------------------------------------------------
+
+Cantidad de clusters: 42
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121014114538
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.275900728822
+
+------------------------------------------------------------
+
+Cantidad de clusters: 43
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.121992437609
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.276300645411
+
+------------------------------------------------------------
+
+Cantidad de clusters: 44
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122278014472
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.278854038382
+
+------------------------------------------------------------
+
+Cantidad de clusters: 45
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122823129745
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.280790342962
+
+------------------------------------------------------------
+
+Cantidad de clusters: 46
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122307577168
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.278044106341
+
+------------------------------------------------------------
+
+Cantidad de clusters: 47
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.122766624572
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.279981476842
+
+------------------------------------------------------------
+
+Cantidad de clusters: 48
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123291656161
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.28101541256
+
+------------------------------------------------------------
+
+Cantidad de clusters: 49
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.124194600086
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.28419935125
+
+------------------------------------------------------------
+
+Cantidad de clusters: 50
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123575631681
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.284017327518
+
+------------------------------------------------------------
+
+Cantidad de clusters: 51
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123735810416
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.282901958969
+
+------------------------------------------------------------
+
+Cantidad de clusters: 52
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.123640929112
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.282304640152
+
+------------------------------------------------------------
+
+Cantidad de clusters: 53
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12442283411
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.285363299707
+
+------------------------------------------------------------
+
+Cantidad de clusters: 54
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12423401399
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.2850393791
+
+------------------------------------------------------------
+
+Cantidad de clusters: 55
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125469165834
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.287086374067
+
+------------------------------------------------------------
+
+Cantidad de clusters: 56
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126159694959
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.288809386507
+
+------------------------------------------------------------
+
+Cantidad de clusters: 57
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.124568240748
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.286606922488
+
+------------------------------------------------------------
+
+Cantidad de clusters: 58
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125766179019
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.288530684012
+
+------------------------------------------------------------
+
+Cantidad de clusters: 59
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125109011726
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.288520533152
+
+------------------------------------------------------------
+
+Cantidad de clusters: 60
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125485111062
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.288383159427
+
+------------------------------------------------------------
+
+Cantidad de clusters: 61
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126263270027
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290370471151
+
+------------------------------------------------------------
+
+Cantidad de clusters: 62
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126386041139
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290486345687
+
+------------------------------------------------------------
+
+Cantidad de clusters: 63
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125850564237
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290011342537
+
+------------------------------------------------------------
+
+Cantidad de clusters: 64
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127178831869
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.292086353839
+
+------------------------------------------------------------
+
+Cantidad de clusters: 65
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125352723607
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.289565881279
+
+------------------------------------------------------------
+
+Cantidad de clusters: 66
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125962501226
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290670486038
+
+------------------------------------------------------------
+
+Cantidad de clusters: 67
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126504092498
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291445100182
+
+------------------------------------------------------------
+
+Cantidad de clusters: 68
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126571931815
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291283270662
+
+------------------------------------------------------------
+
+Cantidad de clusters: 69
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125857246038
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290358118545
+
+------------------------------------------------------------
+
+Cantidad de clusters: 70
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125429085666
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.288908453724
+
+------------------------------------------------------------
+
+Cantidad de clusters: 71
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.125922888021
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.290154926111
+
+------------------------------------------------------------
+
+Cantidad de clusters: 72
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126733420208
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.292200019941
+
+------------------------------------------------------------
+
+Cantidad de clusters: 73
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126506657387
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291434081797
+
+------------------------------------------------------------
+
+Cantidad de clusters: 74
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126214439652
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.292045816338
+
+------------------------------------------------------------
+
+Cantidad de clusters: 75
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126348056131
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291751609334
+
+------------------------------------------------------------
+
+Cantidad de clusters: 76
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128005373822
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.295501811914
+
+------------------------------------------------------------
+
+Cantidad de clusters: 77
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.126391422561
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.29101219119
+
+------------------------------------------------------------
+
+Cantidad de clusters: 78
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127651069724
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294992445628
+
+------------------------------------------------------------
+
+Cantidad de clusters: 79
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128448313503
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296767637144
+
+------------------------------------------------------------
+
+Cantidad de clusters: 80
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128812340775
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297217943277
+
+------------------------------------------------------------
+
+Cantidad de clusters: 81
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12771719527
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296164401164
+
+------------------------------------------------------------
+
+Cantidad de clusters: 82
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127687473423
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294726651076
+
+------------------------------------------------------------
+
+Cantidad de clusters: 83
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128468898031
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296996952411
+
+------------------------------------------------------------
+
+Cantidad de clusters: 84
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127734379159
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294409789364
+
+------------------------------------------------------------
+
+Cantidad de clusters: 85
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128108980531
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297655991352
+
+------------------------------------------------------------
+
+Cantidad de clusters: 86
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127090666006
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.293432047069
+
+------------------------------------------------------------
+
+Cantidad de clusters: 87
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128194541318
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296105505762
+
+------------------------------------------------------------
+
+Cantidad de clusters: 88
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127868336771
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.295306786015
+
+------------------------------------------------------------
+
+Cantidad de clusters: 89
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127516964244
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.29469952778
+
+------------------------------------------------------------
+
+Cantidad de clusters: 90
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128572633249
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296648856081
+
+------------------------------------------------------------
+
+Cantidad de clusters: 91
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127638198616
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294861483678
+
+------------------------------------------------------------
+
+Cantidad de clusters: 92
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.12877129041
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298157082488
+
+------------------------------------------------------------
+
+Cantidad de clusters: 93
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128006112144
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.295801367959
+
+------------------------------------------------------------
+
+Cantidad de clusters: 94
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128920137377
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298111374207
+
+------------------------------------------------------------
+
+Cantidad de clusters: 95
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129252141535
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298442277313
+
+------------------------------------------------------------
+
+Cantidad de clusters: 96
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128704023987
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297875692685
+
+------------------------------------------------------------
+
+Cantidad de clusters: 97
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128891215125
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.297623547807
+
+------------------------------------------------------------
+
+Cantidad de clusters: 98
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128386002729
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.296726192562
+
+------------------------------------------------------------
+
+Cantidad de clusters: 99
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.128898817092
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.298126479795
+
+------------------------------------------------------------
+
+Cantidad de clusters: 100
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.129881435768
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.299760697284
+
+------------------------------------------------------------
+
+**********************************
+*****           HAC          *****
+**********************************
+ 
+Cantidad de clusters: 2
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0228094548492
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.0236728621347
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 3
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0909911419345
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.136215347407
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 4
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.0824858661955
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.129174064523
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 5
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.102480189996
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.144522551342
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 6
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.127886327404
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.210255139331
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 7
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.113264109819
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.181844008194
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 8
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.171621685952
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.271744980199
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 9
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.141304208504
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.239272643373
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 10
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.163987603947
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.253464076231
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 11
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.172841103232
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.285911896015
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 12
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.158441567917
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.271501325383
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 13
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.174674000849
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.280872840192
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 14
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.161606604127
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.258285525927
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 15
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.170061321449
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.294420491045
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 16
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.17631397187
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.291500959152
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 17
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.189003973351
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.305765480634
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 18
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.182970022177
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.301150935701
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 19
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.190944072304
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.299723961356
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 20
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.180876663896
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.316280767412
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 21
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.194285331756
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.323206984753
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 22
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.188601421405
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.319040822221
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 23
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.191948198925
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.321967222933
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 24
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.210598977448
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.342576540661
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 25
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.191891711917
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.329855922717
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 26
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.189049013886
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.327248289831
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 27
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.194176863817
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.333873149828
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 28
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.202932591764
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.335431930909
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 29
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.190831685857
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.331151423299
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 30
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.203724772765
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.34788325751
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 31
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.211802662023
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.354923962387
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 32
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.219117680041
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.365776370373
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 33
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.210996955932
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.365900699721
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 34
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.203457841252
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.349061063277
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 35
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.21691547986
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.366123566341
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 36
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.217012297249
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.380407560292
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 37
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.204297867043
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.360637855179
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 38
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.211625554668
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.370284340387
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 39
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.210333859575
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.371373884128
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 40
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.214319478687
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.371051162885
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 41
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.211403561818
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.372818047107
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 42
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.21359726925
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.375653054531
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 43
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.217975148051
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.386240632205
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 44
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.212912576435
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.372059952111
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 45
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.216805745227
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.377752423136
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 46
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.224834513786
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.383955011229
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 47
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.223150253961
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.401462420347
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 48
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.216335475999
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.383766742656
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 49
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.220729541091
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.384107924838
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 50
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.220270391451
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.391642214138
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 51
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.211263568839
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.373158239887
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 52
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.210673429697
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.375429639564
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 53
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.224654807815
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.392229967911
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 54
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.224418820109
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.388680660074
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 55
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.223119060654
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.394060648925
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 56
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.222439091213
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.394503127589
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 57
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.223394222788
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.386361613827
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 58
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.21741259417
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.388646122146
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 59
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.219554233379
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.390162992448
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 60
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.226899797805
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.40420661645
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 61
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.222029839267
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.398858420759
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 62
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.22455465785
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.397086971056
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 63
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.222967296145
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.397317827879
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 64
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.224330354977
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.401373244857
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 65
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.227741400879
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.405091714507
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 66
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.232429197231
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.401344727133
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 67
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.222793872255
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.395034638326
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 68
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.223361022801
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.396221004262
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 69
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.222574726309
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.401152624977
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 70
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.220743356245
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.391963716378
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 71
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.221165032426
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.395145983489
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 72
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.223276918932
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.394289452303
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 73
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.229279228239
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.408758725139
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 74
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.221828620684
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.394065275465
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 75
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.229531390147
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.41031600518
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 76
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.221753499724
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.403924788911
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 77
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.22927672036
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.411926503599
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 78
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.225302066675
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.402904255168
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 79
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.225165075262
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.40462402596
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 80
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.225462634539
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.406987790336
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 81
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.227043560243
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.406732702388
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 82
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.22782953846
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.410975060658
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 83
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.228438551707
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.412357027716
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 84
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.228610923311
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.412913855489
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 85
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.232771268514
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.421981385712
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 86
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.231082128687
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.42153414231
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 87
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.22775359938
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.41237226385
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 88
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.229980255408
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.414494201689
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 89
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.22861060733
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.417730474224
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 90
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.231904072472
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.420797130298
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 91
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.232763713506
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.422110395217
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 92
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.228352761394
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.417951303428
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 93
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.229269126778
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.416720480583
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 94
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.230428991628
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.41439941269
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 95
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.228463349474
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.414382951817
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 96
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.230603299455
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.41440917117
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 97
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.229185016379
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.414606798857
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 98
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.23319231319
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.421098955408
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 99
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.231197127778
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.419746981038
+
+-----------------------------------------------------------------
+
+Cantidad de clusters: 100
+
+Indice NMI para la etiqueta Nombre Cerveceria: 0.231929363836
+
+Indice NMI para la etiqueta Tipo Cerveza: 0.422667923794
+
+-----------------------------------------------------------------
+
