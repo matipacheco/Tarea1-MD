@@ -11,6 +11,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 n_clusters = int(sys.argv[1])
+
 print "Cantidad de clusters: " + str(n_clusters)
 
 dataset = pd.read_csv('beer_reviews.csv')
@@ -36,10 +37,9 @@ labels = mini_batch.labels_
 
 print "\nIndice NMI para la etiqueta Nombre Cerveceria: " + str(NMI(breweries, labels))
 print "\nIndice NMI para la etiqueta Tipo Cerveza: " + str(NMI(beers, labels))
-print "\n------------------------------------------------------------\n"
 
-# for l in np.unique(label):
-#     plt.plot(reviews[label == l, 0], reviews[label == l, 1], 'o', color = plt.cm.jet(np.float(l) / np.max(label + 1)))
+for l in np.unique(labels):
+    plt.plot(reviews[labels == l, 0], reviews[labels == l, 1], 'o', color = plt.cm.jet(np.float(l) / np.max(labels + 1)))
 
-# plt.title("Clustering MiniBatch K-means con " + str(n_clusters) + " clusters (reducido utilizando PCA)")
-# plt.show()
+plt.title("Clustering MiniBatch K-means con " + str(n_clusters) + " clusters (reducido utilizando PCA)")
+plt.show()
